@@ -1,0 +1,1491 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,400&family=Poppins:wght@200&family=Radio+Canada:wght@400&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+/*.body {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  background-image: url("images/training-828726_1280\ 1.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  background-size: cover;
+ 
+}*/
+
+.left {
+  display: block;
+  position: absolute;
+  left: 34px;
+  top: 20px;
+  display: inline-block;
+  border: 2px;
+}
+.left img {
+  position: relative;
+  height: 180px;
+  top: -57px;
+  left: 9px;
+}
+.left div {
+  color: ivory;
+  text-align: center;
+  font-size: 20px;
+}
+.mid {
+  display: flex;
+  width: 50%;
+  margin: 20px auto;
+  border: 1px;
+}
+.right {
+  position: absolute;
+  right: 34px;
+  top: 30px;
+  display: inline;
+  border: 2px;
+}
+.header {
+  background: #353535;
+  width: 100%;
+  height: 88px;
+  position: relative;
+  top: -20px;
+}
+.mobile-menu {
+  position: relative;
+  left: 240px;
+  top: 20px;
+}
+.mobile-menu li {
+  display: inline;
+  font-size: 25px;
+}
+.mobile-menu li a {
+  color: rgb(245, 238, 238);
+  text-decoration: none;
+  padding: 40px 30px;
+  font: poppins;
+  border: 4px;
+  border-radius: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.mobile-menu a:hover,
+.mobile-menu a.active {
+  text-decoration: underline rgb(247, 196, 10);
+}
+.ham {
+  display: none;
+}
+
+.btn {
+  width: 126px;
+  height: 49px;
+  position: relative;
+  top: -14px;
+  border-radius: 8px;
+  right: 56px;
+  font-size: 25px;
+  font-weight: 500;
+  background: rgb(248, 196, 22);
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: grey;
+}
+.section {
+  width: 100%;
+  height: 760px;
+  background: url("Images/training-828726_1280\ 1.png");
+  margin-top: -89px;
+  position: relative;
+  top: 69px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  border: 3px;
+  width: 50%;
+  position: relative;
+  top: 177px;
+  margin-left: 30px;
+  padding-left: 6px;
+  padding-right: 8px;
+  /* border-radius: 15px;*/
+  background-color: #1e1d1ddb;
+  height: 59%;
+}
+.container h1 {
+  color: white;
+  position: relative;
+  top: 35px;
+  left: 134px;
+  width: 506px;
+  height: 174p;
+  font-weight: 700;
+
+  font-family: "Radio Canada", sans-serif;
+  font-size: 90px;
+}
+.container h3 {
+  color: rgb(224 205 213 / 73%);
+  position: relative;
+  font-family: "Radio Canada", sans-serif;
+  font-weight: 100;
+  font-size: 22px;
+  width: 421px;
+  height: 51px;
+  top: 56px;
+  left: 132px;
+}
+
+.btn1 {
+  display: block;
+  margin: 6%;
+  position: relative;
+  width: 172px;
+  top: 68px;
+  left: 91px;
+  height: 48px;
+  font-size: 23px;
+  background: #ffa500;
+  color: #fff;
+  font-family: "Radio Canada", sans-serif;
+  line-height: 32.4px;
+  border-radius: 4px;
+}
+.btn2 {
+  display: block;
+  margin: 6%;
+  width: 177px;
+  position: relative;
+  width: 163px;
+  top: -25px;
+  left: 294px;
+  height: 52px;
+  font-family: "Radio Canada", sans-serif;
+  line-height: 32.4px;
+  font-weight: 500;
+  font-size: 22px;
+  border-radius: 4px;
+  padding-left: 9px;
+  padding-top: 6px;
+  background: #794545a6;
+  color: #fff;
+  border: 2px solid #ffa500;
+}
+
+.fitness-plan {
+  width: 100%;
+  height: 678px;
+  flex-shrink: 0;
+  background: rgba(255, 165, 0, 0.32);
+  position: relative;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  top: 69px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.box-main {
+  position: relative;
+  width: 254px;
+  height: 56px;
+  top: 217px;
+  border: 2px;
+  z-index: 1;
+  left: -36px;
+  background: #ffa500;
+  border: 2px solid white;
+}
+
+.fitness-plan h2 {
+  color: #000;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: underline 2px;
+  text-align: center;
+  padding: 60px;
+  margin-top: -30px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.fitness-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 49px 50px;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+  left: 7px;
+  top: 3%;
+}
+
+.fitness-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.fitness-items p {
+  color: #000;
+  font-family: "Radio Canada";
+  font-size: 34px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.lines {
+  margin-top: -510px;
+}
+
+.vl {
+  border-left: 3px solid #ffa500;
+  height: 470px;
+  position: absolute;
+  left: 35%;
+  margin-left: 6px;
+  margin-top: -90px;
+  top: 40%;
+}
+.vll {
+  border-left: 3px solid #ffa500;
+  height: 470px;
+  position: absolute;
+  left: 68%;
+  margin-left: 6px;
+  margin-top: -90px;
+  top: 40%;
+}
+.hl {
+  border-left: 3px solid #ffa500;
+  height: 1306px;
+  position: relative;
+  left: 327px;
+  margin-left: 173px;
+  top: -105px;
+  width: 450px;
+  transform: rotate(90deg);
+}
+.subscription-container {
+  width: 100%;
+  height: 800px;
+  background-image: url("./images/anastase-maragos-9dzWZQWZMdE-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  top: 70px;
+}
+
+.subscription-container h2 {
+  color: #ffa500;
+  font-family: "Ubuntu";
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.plan-items {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 60px;
+}
+
+.plan {
+  width: 240px;
+  height: 352px;
+  border-radius: 6px;
+  border: 1px solid #000;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.plan div h3 {
+  color: #ffa500;
+  font-family: "Radio Canada";
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.plan div p {
+  color: #b5aaaa;
+  font-family: "Radio Canada";
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.plan-btn {
+  width: 177px;
+  height: 62.035px;
+  border-radius: 4px;
+  border: 4px solid #ffa500;
+  background: #524d4d;
+  color: #fff;
+  font-family: "Radio Canada";
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.plan-btn:hover {
+  transform: scale(1.05);
+}
+/* .subscription {
+  width: 100%;
+  height: 470px;
+  position: relative;
+  padding: 30px;
+  top: 243px;
+  font-family: "Ubuntu", sans-serif;
+  display: inline-block;
+  background: url('Images/Rectangle\ 19.png');
+  background-repeat: no-repeat;
+}
+.sub-container h1 {
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #ffa500;
+  position: relative;
+  top: -181%;
+}
+.subscription img {
+  background-blend-mode: darken;
+  position: absolute;
+  top: -125%;
+  width: 100%;
+  object-fit: cover;
+}
+.basic-box {
+  background: #ffffff33;
+  width: 230px;
+  height: 324px;
+  margin-top: -46%;
+  position: relative;
+  left: 18%;
+}
+.basic-box p {
+  text-align: center;
+  color: #b5aaaa;
+}
+.basic-box h2 {
+  text-align: center;
+  position: relative;
+  padding-top: 40px;
+  color: #ffa500;
+}
+.basic-box h1 {
+  position: relative;
+  padding-top: 16px;
+  top: -7px;
+  font-size: 30px;
+}
+.btn3 {
+  display: block;
+  margin: 6%;
+  width: 177px;
+  position: relative;
+  width: 163px;
+  top: 25px;
+  left: 20px;
+  height: 52px;
+  font-family: "Radio Canada", sans-serif;
+  line-height: 32.4px;
+  font-weight: 500;
+  font-size: 22px;
+  border-radius: 4px;
+  background: #524d4d;
+  color: #fff;
+  border: 2px solid #ffa500;
+}
+.intermediate-box {
+  background: #ffffff33;
+  width: 230px;
+  height: 324px;
+  margin-top: -323px;
+  position: relative;
+  left: 42%;
+}
+.intermediate-box p {
+  text-align: center;
+  color: #b5aaaa;
+}
+.intermediate-box h2 {
+  text-align: center;
+  position: relative;
+  padding-top: 40px;
+  color: #ffa500;
+}
+.intermediate-box h1 {
+  position: relative;
+  padding-top: 16px;
+  top: -7px;
+  font-size: 30px;
+}
+.btn3 {
+  display: block;
+  margin: 6%;
+  width: 177px;
+  position: relative;
+  width: 163px;
+  top: 25px;
+  left: 20px;
+  height: 52px;
+  font-family: "Radio Canada", sans-serif;
+  line-height: 32.4px;
+  font-weight: 500;
+  font-size: 22px;
+  border-radius: 4px;
+  background: #524d4d;
+  color: #fff;
+  border: 2px solid #ffa500;
+}
+
+.advanced-box {
+  background: #ffffff33;
+  width: 230px;
+  height: 324px;
+  margin-top: -323px;
+  left: 66%;
+  position: relative;
+}
+.advanced-box p {
+  text-align: center;
+  color: #b5aaaa;
+}
+.advanced-box h2 {
+  text-align: center;
+  position: relative;
+  padding-top: 40px;
+  color: #ffa500;
+}
+.advanced-box h1 {
+  position: relative;
+  padding-top: 16px;
+  top: -7px;
+  font-size: 30px;
+}
+.btn3 {
+  display: block;
+  margin: 6%;
+  width: 177px;
+  position: relative;
+  width: 163px;
+  top: 25px;
+  left: 20px;
+  height: 52px;
+  font-family: "Radio Canada", sans-serif;
+  line-height: 32.4px;
+  font-weight: 500;
+  font-size: 22px;
+  border-radius: 4px;
+  background: #524d4d;
+  color: #fff;
+  border: 2px solid #ffa500;
+} */
+.Fitnessclub img {
+  width: 100%;
+  height: 487px;
+  position: relative;
+  top: px;
+}
+.white-box img {
+  width: 79%;
+  height: 260px;
+  position: relative;
+  top: -175px;
+  margin-left: 165px;
+  z-index: 1;
+}
+.Rectangle12 {
+  width: 344px;
+  height: 80px;
+  top: 388px;
+  left: -716px;
+  border: 2px;
+}
+
+.yellow {
+  background-color: #ffa500;
+  width: 100%;
+  height: 300px;
+  position: relative;
+  top: -652px;
+}
+.image img {
+  width: 78px;
+  height: 70px;
+  position: relative;
+  top: -406px;
+  z-index: 1;
+  left: 18%;
+}
+.image p {
+  position: relative;
+  top: -399px;
+  font-size: 26px;
+  font-weight: bold;
+  left: 200px;
+  z-index: 1;
+}
+.image h4 {
+  position: relative;
+  top: -398px;
+
+  left: 200px;
+  z-index: 1;
+  width: 376px;
+}
+.image2 img {
+  width: 78px;
+  height: 70px;
+  position: relative;
+  top: -534px;
+  z-index: 1;
+  left: 42%;
+}
+.image2 p {
+  position: relative;
+  top: -536px;
+  font-size: 26px;
+  font-weight: bold;
+  left: 40%;
+  z-index: 1;
+}
+.image2 h4 {
+  position: relative;
+  top: -532px;
+  left: 40%;
+  z-index: 1;
+  width: 376px;
+}
+.image3 img {
+  width: 78px;
+  height: 70px;
+  position: relative;
+  top: -652px;
+  z-index: 1;
+  left: 72%;
+}
+.image3 p {
+  position: relative;
+  top: -653px;
+  font-size: 26px;
+  font-weight: bold;
+  left: 70%;
+  z-index: 1;
+}
+.image3 h4 {
+  position: relative;
+  top: -652px;
+
+  left: 68%;
+  z-index: 1;
+  width: 376px;
+}
+.Success {
+  width: 100%;
+  height: 610px;
+  background: #000;
+  position: relative;
+  top: -652px;
+}
+.Success h1 {
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #ffa500;
+  position: relative;
+  top: 5%;
+}
+
+.img-box1 p {
+  text-align: center;
+  color: #ffa500;
+}
+.img-box1 {
+  width: 238px;
+  height: 324px;
+  margin-top: 86px;
+  position: relative;
+  left: 12%;
+}
+.img-box1 p {
+  text-align: center;
+  color: #ffa500;
+  position: relative;
+  top: 7px;
+  font-family: "Radio Canada", sans-serif;
+  left: 60px;
+  letter-spacing: 2px;
+}
+.img-box1 img {
+  width: 281px;
+  height: 360px;
+  position: relative;
+  left: 38px;
+}
+
+.img-box2 {
+  width: 230px;
+  height: 324px;
+  margin-top: -324px;
+  position: relative;
+  left: 42%;
+}
+.img-box2 img {
+  width: 306px;
+  height: 360px;
+  position: relative;
+  left: -26px;
+}
+.img-box2 p {
+  text-align: center;
+  color: #ffa500;
+  position: relative;
+  top: 7px;
+  left: 9px;
+  letter-spacing: 2px;
+  font-family: "Radio Canada", sans-serif;
+}
+
+.img-box3 {
+  width: 230px;
+  height: 324px;
+  margin-top: -324px;
+  left: 66%;
+  position: relative;
+}
+.img-box3 p {
+  text-align: center;
+  color: #ffa500;
+  position: relative;
+  top: 7px;
+  font-family: "Radio Canada", sans-serif;
+  left: 30px;
+  letter-spacing: 2px;
+}
+.img-box3 img {
+  width: 261px;
+  height: 360px;
+  position: relative;
+  left: 24px;
+}
+.footer {
+  width: 100%;
+  height: 400px;
+  background: #605a5a;
+  position: relative;
+  top: -652px;
+}
+.footer img {
+  width: 219px;
+  height: 176px;
+  position: relative;
+  top: 54px;
+  left: 74px;
+}
+.footer p {
+  width: 244px;
+  height: 84.13px;
+  top: -6px;
+  position: relative;
+  left: 83px;
+  font-family: "Radio Canada", sans-serif;
+  color: #ffa500;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.company-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 400px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-top: -200px;
+  font-family: "Radio Canada", sans-serif;
+  gap: 30px;
+  color: #fff;
+}
+.company-info h1,
+h2,
+h3,
+h4 {
+  margin-left: 2px;
+  font-weight: 300;
+}
+.company-info h5 {
+  font-family: "Radio Canada", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 1px;
+  justify-content: center;
+  margin-left: 620px;
+  margin-top: -199px;
+  font-weight: 400;
+  font-family: "Radio Canada", sans-serif;
+  gap: 30px;
+  color: #fff;
+}
+.contact-info h1 {
+  margin-left: -6px;
+  margin-top: -60px;
+  font-weight: 300;
+}
+.More-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 850px;
+  margin-top: -195px;
+  font-weight: 400;
+  font-family: "Radio Canada", sans-serif;
+  letter-spacing: 1px;
+  gap: 30px;
+  color: #fff;
+}
+.More-info h1,
+h2,
+h3,
+h4 {
+  margin-left: 2px;
+  font-weight: 300;
+}
+.fourth-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.fourth-col h1 {
+  width: 165px;
+  height: 26.329px;
+  flex-shrink: 0;
+  color: #ffa500;
+  font-family: "Radio Canada";
+  font-size: 27px;
+  font-weight: 500;
+  text-decoration-line: underline;
+  position: relative;
+  left: 35%;
+  top: -245px;
+}
+.btn5 {
+  display: block;
+  position: relative;
+  width: 76px;
+  margin-top: -232px;
+  left: 30%;
+  height: 42px;
+  font-family: "Radio Canada", sans-serif;
+  line-height: 32.4px;
+  font-weight: 500;
+  font-size: 22px;
+  border-radius: 4px;
+  background: #8d8383;
+  color: #fff;
+}
+.btn6 {
+  display: block;
+  margin-top: -63px;
+  position: relative;
+  width: 145px;
+  left: 39%;
+  height: 42px;
+  font-family: "Radio Canada", sans-serif;
+  line-height: 32.4px;
+  font-weight: 500;
+  font-size: 22px;
+  border-radius: 4px;
+  background: #8d8383;
+  color: #fff;
+}
+.btn-5 {
+  display: block;
+  position: relative;
+  margin-top: -10px;
+  left: 40%;
+
+  width: 76px;
+  height: 42px;
+  font-family: "Radio Canada", sans-serif;
+  line-height: 32.4px;
+  font-weight: 500;
+  font-size: 22px;
+  border-radius: 4px;
+  background: #8d8383;
+  color: #fff;
+}
+.btn-6 {
+  display: block;
+  position: relative;
+  margin-top: -59px;
+  width: 125px;
+  left: 32%;
+  height: 42px;
+  font-family: "Radio Canada", sans-serif;
+  line-height: 32.4px;
+  font-weight: 500;
+  font-size: 22px;
+  border-radius: 4px;
+  background: #8d8383;
+  background: #ffa500;
+  color: #fff;
+}
+.btn-7 {
+  display: block;
+  position: relative;
+  margin-top: -9px;
+  width: 102px;
+  margin-left: 959px;
+  height: 42px;
+  font-family: "Radio Canada", sans-serif;
+  line-height: 32.4px;
+  font-weight: 500;
+  font-size: 22px;
+  border-radius: 4px;
+  background: #8d8383;
+  color: #fff;
+}
+.btn-8 {
+  display: block;
+  position: relative;
+  margin-top: -63px;
+  width: 125px;
+  left: 40%;
+  height: 42px;
+  font-family: "Radio Canada", sans-serif;
+  line-height: 32.4px;
+  font-weight: 500;
+  font-size: 22px;
+  border-radius: 4px;
+  background: #ffa500;
+  color: #fff;
+}
+.btn-9 {
+  display: block;
+  position: relative;
+  margin-top: -7px;
+  width: 123px;
+  left: 36%;
+  height: 42px;
+  font-family: "Radio Canada", sans-serif;
+  line-height: 32.4px;
+  font-weight: 500;
+  font-size: 22px;
+  border-radius: 4px;
+  background: #ffa500;
+  color: #fff;
+}
+
+.yellow-2 {
+  background: #ffa500;
+  width: 100%;
+  height: 62px;
+  position: relative;
+  margin-top: -652px;
+}
+.yellow-2 p {
+  text-align: center;
+  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+  font-size: 27px;
+  position: relative;
+  top: 10px;
+  color: #000;
+  left: 562px;
+  width: 460px;
+}
+.loginform {
+  width: 492px;
+  height: 982px;
+  background: rgba(255, 165, 0, 0.5);
+  border: 2px solid rgba(15, 15, 15, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: -113%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.loginform h1 {
+  position: relative;
+  top: 100px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 38px;
+}
+
+.loginform input {
+  width: 100%;
+  height: 35px;
+  margin-bottom: 15px;
+  position: relative;
+  top: 124px;
+  margin: 25px;
+  margin-left: -2px;
+}
+.loginform label {
+  padding: 20px;
+  top: 135px;
+  position: relative;
+  font-size: larger;
+  color: #fff;
+  margin-left: -3px;
+}
+.loginform .name {
+  margin: -17px;
+  position: relative;
+  top: 137px;
+}
+.loginform .name2 {
+  margin: -17px;
+  position: relative;
+  top: 137px;
+}
+.loginform .name3 {
+  margin: -17px;
+  position: relative;
+  top: 137px;
+}
+.loginform button {
+  width: 50%;
+  height: 40px;
+  background-color: rgb(88, 76, 76);
+  color: white;
+  width: 100%;
+  margin: 26px 0px;
+}
+.loginform span {
+  position: absolute;
+  right: 15px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  top: 10px;
+  line-height: 30px;
+  background: rgb(16 15 15);
+  cursor: pointer;
+  color: white;
+  font-size: 25px;
+  border-radius: 20px;
+}
+.showloginform {
+  top: 90%;
+  /* height: 800px; */
+}
+#html {
+  left: -133px;
+  height: 20px;
+  position: relative;
+  top: 137px;
+}
+.loginform p {
+  width: 71px;
+  height: 23px;
+  padding-left: 5px;
+  padding-top: 1px;
+  color: #070707;
+  position: relative;
+  top: 89px;
+  left: 61px;
+  background-color: rgba(217, 217, 217, 1);
+}
+
+#html2 {
+  left: 58px;
+  height: 20px;
+  position: relative;
+  top: 137px;
+}
+
+.loginform p2 {
+  display: block;
+  width: 78px;
+  height: 24px;
+  padding-left: 13px;
+  padding-top: 1px;
+  color: #070707;
+  position: relative;
+  top: 90px;
+  left: 257px;
+  background-color: rgba(217, 217, 217, 1);
+}
+.loginform .name4 {
+  padding: 20px;
+  top: 24px;
+  position: relative;
+  font-size: larger;
+  color: #fff;
+  margin-left: -3px;
+}
+#html3 {
+  left: 58px;
+  height: 20px;
+  position: relative;
+  top: -74px;
+}
+#html4 {
+  left: -136px;
+  height: 20px;
+  position: relative;
+  top: -73px;
+}
+
+.loginform p3 {
+  display: block;
+  width: 71px;
+  height: 23px;
+  padding-left: 5px;
+  padding-top: 1px;
+  color: #070707;
+  position: relative;
+  top: -120px;
+  left: 257px;
+  background-color: rgba(217, 217, 217, 1);
+}
+.loginform p4 {
+  width: 78px;
+  height: 24px;
+  padding-left: 15px;
+  padding-top: 1px;
+  color: #070707;
+  position: absolute;
+  top: 575px;
+  left: 142px;
+  background-color: rgba(217, 217, 217, 1);
+}
+#html5 {
+  left: -133px;
+  height: 20px;
+  position: relative;
+  top: -83px;
+}
+.loginform .name5 {
+  padding: 20px;
+  top: -65px;
+  position: relative;
+  font-size: larger;
+  color: #fff;
+  margin-left: -3px;
+}
+.loginform h5 {
+  margin-left: 40px;
+  position: relative;
+  top: -86px;
+  left: 129px;
+}
+.loginform p5 {
+  display: block;
+  width: 78px;
+  height: 24px;
+  padding-left: 5px;
+  padding-top: 1px;
+  color: #070707;
+  position: absolute;
+  top: 671px;
+  left: 142px;
+  background-color: rgba(217, 217, 217, 1);
+}
+#html6 {
+  left: -133px;
+  height: 20px;
+  position: relative;
+  top: -104px;
+}
+.loginform p6 {
+  display: block;
+  width: 101px;
+  height: 24px;
+  padding-left: 5px;
+  padding-top: 1px;
+  color: #070707;
+  position: absolute;
+  top: 721px;
+  left: 138px;
+  background-color: rgba(217, 217, 217, 1);
+}
+#html7 {
+  left: -133px;
+  height: 20px;
+  position: relative;
+  top: -100px;
+}
+.loginform p7 {
+  display: block;
+  width: 216px;
+  height: 24px;
+  padding-left: 5px;
+  padding-top: 1px;
+  color: #070707;
+  position: absolute;
+  top: 794px;
+  left: 134px;
+}
+.loginform .btn-2 {
+  width: 140px;
+  height: 50px;
+  position: relative;
+  font-size: 20px;
+  font-weight: 700;
+  left: 225px;
+  top: -98px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* Responsive css code */
+
+@media only screen and (max-width: 320px) {
+  .header {
+    width: 408%;
+    display: flex;
+    z-index: 5;
+  }
+  .ham {
+    display: block;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    margin-left: 90%;
+    margin-top: 24px;
+  }
+  #list-bar {
+    display: flex;
+    flex-direction: column;
+  }
+  .mid {
+    display: none;
+  }
+  ul li {
+    display: block;
+  }
+
+  .section {
+    width: 408%;
+  }
+  .mid {
+    display: block;
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    top: 70px;
+  }
+  ul {
+    display: none;
+    position: relative;
+    left: 600px;
+    gap: 15px;
+    margin-top: 50px;
+  }
+  .right .btn {
+    /* position: relative; */
+   
+    left: 13%;
+    margin-top: 14px;
+  }
+  .fitness-plan {
+    width: 400%;
+  }
+  .subscription-container {
+    width: 400%;
+  }
+  .Fitnessclub {
+    width: 400%;
+  }
+  .white-box {
+    width: 414%;
+    position: relative;
+    top: -50px;
+    right: 32px;
+  }
+  .image img {
+    width: 45%;
+    height: 78px;
+    position: relative;
+    left: 67%;
+    top: -427px;
+  }
+  .image3 img {
+    width: 45%;
+    height: 78px;
+    position: relative;
+    left: 306%;
+    top: -709px;
+  }
+  .image3 p {
+    margin-left: 770px;
+    position: relative;
+    top: -700px;
+  }
+  .image3 h4 {
+    margin-left: 770px;
+    position: relative;
+    top: -700px;
+  }
+  .image2 img {
+    width: 45%;
+    height: 78px;
+    position: relative;
+    left: 184%;
+    top: -547px;
+  }
+  .image2 p {
+    margin-left: 483px;
+    position: relative;
+    top: -558px;
+    width: 59%;
+  }
+  .image2 h4 {
+    margin-left: 469px;
+    position: relative;
+    top: -547px;
+  }
+
+  .yellow {
+    width: 408%;
+  }
+  .Success {
+    width: 408%;
+  }
+  .footer {
+    width: 408%;
+  }
+  .btn-7 {
+    position: relative;
+    left: -67px;
+  }
+  .btn-8 {
+    position: relative;
+    left: 41%;
+  }
+  .yellow-2 {
+    width: 408%;
+  }
+  .loginform{
+    margin-left: 500px;
+    margin-top: 300px;
+   
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,400&family=Poppins:wght@200&family=Radio+Canada:wght@400&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+/* new css menu */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+ 
+    font-size: px;
+}
+.mobile-menu {
+  display: block;
+  width: 100%;
+  /* background: #353535; */
+  line-height: 1.6em;
+  font-weight: 400;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+}
+/*Strip the ul of padding and list styling*/
+.mobile-menu ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding-left: 0;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  background: #353535;
+  
+}
+
+/*Create a horizontal list with spacing*/
+.mobile-menu li {
+  display: inline-block;
+  /*float: left;
+	margin-right: 1px;*/
+}
+
+/*Style for menu links*/
+.mobile-menu li a {
+  display: block;
+  min-width: 100px;
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  background: #353535;
+  text-decoration: none;
+  margin-left: -31px;
+  /* -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s; */
+  color: rgb(245, 238, 238);
+  text-decoration: none;
+  padding: 40px 30px;
+  font: poppins;
+  border: 4px;
+  border-radius: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top:-34px;
+}
+
+/*Hover state for top level links*/
+.mobile-menu li:hover a {
+  /* color: #4db3ff; */
+  background-color: #353535;
+}
+
+/*Style for dropdown links*/
+.mobile-menu li:hover ul a {
+  background: #f3f3f3;
+  color: #2f3036;
+  height: 40px;
+  line-height: 40px;
+}
+
+/*Hover state for dropdown links*/
+.mobile-menu li:hover .mobile-menu ul a:hover {
+  color: #4db3ff;
+}
+
+/*Hide dropdown links until they are needed*/
+.mobile-menu li ul {
+  display: none;
+}
+
+/*Make dropdown links vertical*/
+.mobile-menu li ul li {
+  display: block;
+  float: none;
+}
+
+/*Prevent text wrapping*/
+.mobile-menu li ul li a {
+  width: auto;
+  min-width: 100px;
+  padding: 0 20px;
+}
+
+/*Style 'show menu' label button and hide it by default*/
+.mobile-menu .show-menu {
+  text-decoration: none;
+  color: #fff;
+   /* background: #0992f3;  */
+  text-align: center;
+  padding: 10px 15px;
+  display: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  
+ 
+
+}
+
+.mobile-menu .show-menu span {
+  padding-left: 25px;
+}
+
+/*Hide checkbox*/
+.mobile-menu input[type="checkbox"] {
+  display: none;
+}
+
+/*Show menu when invisible checkbox is checked*/
+.mobile-menu input[type="checkbox"]:checked ~ #menu {
+  display: block;
+}
+
+/*Responsive Styles*/
+
+@media screen and (max-width: 800px) {
+  .mobile-menu .lines1 {
+    border-bottom: 21px double #f8f8f8;
+    border-top: 6px solid #f8f8f8;
+    content: "";
+    height: 33px;
+    width: 20px;
+    padding-right: 61px;
+    /* float: left; */
+    margin-left: 60%;
+    margin-top: -13px;
+  }
+  /*Make dropdown links appear inline*/
+  .mobile-menu ul {
+    position: static;
+    display: none;
+  }
+  /*Create vertical spacing*/
+  .mobile-menu li {
+    margin-bottom: 1px;
+  }
+  /*Make all menu links full width*/
+  .mobile-menu ul li,
+  .mobile-menu li a {
+    width: 100%;
+    height: 122px;
+    font-size: 53px;
+    position: relative;
+    top: 25px;
+  }
+  /*Display 'show menu' link*/
+  .mobile-menu .show-menu {
+    display: block;
+    margin-top: -88px;
+   
+}
+/* end new css */
+}

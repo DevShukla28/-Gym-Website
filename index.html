@@ -1,0 +1,393 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness star</title>
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,400&family=Poppins:wght@200&display=swap"
+      rel="stylesheet" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="Box"></div>
+      <div class="left">
+        <img src="Images/fitness logo.png" alt="" />
+        <div></div>
+      </div>
+      <!-- end new menu -->
+      <div class="mid">
+        <nav class="mobile-menu">
+          <label for="show-menu" class="show-menu"
+            ><span></span>
+            <div class="lines1"></div
+          ></label>
+          <input type="checkbox" id="show-menu" />
+          <!-- <ul id="list-bar menu"> -->
+          <ul id="menu">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="classes.html">Classes</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="blogs.html">Blogs</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- end new menu -->
+
+      <div class="right">
+        <button class="btn" onclick="showForm()">Join Us</button>
+      </div>
+      <!-- <ion-icon class="ham" onclick="myMenu()" name="menu-outline"></ion-icon> -->
+    </header>
+    <!--Section 1-->
+    <div class="loginform">
+      <span onclick="closeForm()">&times;</span>
+      <form action="">
+        <h1>Subscription Plan</h1>
+        <div>
+          <label class="name" for="">FullName :</label>
+          <input type="text" />
+        </div>
+        <div>
+          <label class="name2" for="">Email :</label>
+          <input type="text" />
+        </div>
+        <div>
+          <label class="name3" for="">Phone Number :</label>
+          <input type="number" />
+        </div>
+        <label for="html">Duration :</label>
+
+        <input type="radio" id="html" name="fav_language" value="HTML" />
+        <p>Monthly</p>
+
+        <input type="radio" id="html2" name="fav_language" value="HTML" />
+        <p2>Online</p2>
+        <label class="name4" for="html">Mode of Payment:</label>
+
+        <input type="radio" id="html3" name="fav_language" value="HTML" />
+        <p3>Yearly</p3>
+        <input type="radio" id="html4" name="fav_language" value="HTML" />
+        <p4>Cash</p4>
+        <label class="name5" for="html">Personal Training :</label>
+        <h5>*free with yearly plan</h5>
+
+        <input type="radio" id="html5" name="fav_language" value="HTML" />
+        <p5>Required</p5>
+        <input type="radio" id="html6" name="fav_language" value="HTML" />
+        <p6>Not Required</p6>
+        <input type="checkbox" id="html7" name="fav_language" value="HTML" />
+        <p7>I agree to Terms & Conditions provided in this form</p7>
+
+        <button type="Submit" class="btn-2">Buy Plan</button>
+      </form>
+    </div>
+    <div class="section">
+      <div class="container">
+        <h1>Revitalize your body</h1>
+        <h3>
+          Fall in love with taking care of yourself: mind, body, and spirit.
+        </h3>
+        <button class="btn1">Get Started</button>
+        <button class="btn2">
+          Free Trial &nbsp; &nbsp;<svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 20 22"
+            fill="none">
+            <path
+              d="M8.50352 1.44121L9.49448 0.34737C9.91407 -0.11579 10.5926 -0.11579 11.0077 0.34737L19.6853 9.92097C20.1049 10.3841 20.1049 11.1331 19.6853 11.5913L11.0077 21.1698C10.5881 21.633 9.90961 21.633 9.49448 21.1698L8.50352 20.076C8.07946 19.6079 8.08838 18.8442 8.52137 18.386L13.9002 12.7295H1.07131C0.477625 12.7295 0 12.2023 0 11.547V9.97025C0 9.31493 0.477625 8.78771 1.07131 8.78771H13.9002L8.52137 3.13125C8.08392 2.67302 8.07499 1.9093 8.50352 1.44121Z"
+              fill="#D9D9D9" />
+          </svg>
+        </button>
+        <div class="Rectangle 12"></div>
+      </div>
+    </div>
+
+    <!--Second Part-->
+    <div class="fitness-plan">
+      <h2>Fitness Plans & Nutritions</h2>
+      <div class="fitness-container">
+        <div class="fitness-items">
+          <img
+            src="./images/icons8-weight-pound-50.png"
+            alt="weigth-pound"
+            width="110px"
+            ;
+            height="119px" />
+
+          <p>Weight Loss</p>
+        </div>
+        <div class="fitness-items">
+          <img
+            src="./images/icons8-yoga-50.png"
+            alt="yoga"
+            width="124px"
+            ;
+            height="110px" />
+
+          <p>Class Yoga</p>
+        </div>
+        <div class="fitness-items">
+          <img
+            src="./images/icons8-cycling-50.png"
+            alt="cycling"
+            width="110px"
+            ;
+            height="110px" />
+
+          <p>Cycling</p>
+        </div>
+        <div class="fitness-items">
+          <img
+            src="./images/icons8-biceps-50.png"
+            alt="biceps"
+            width="110px"
+            ;
+            height="110px" />
+
+          <p>Body Building</p>
+        </div>
+        <div class="fitness-items">
+          <img
+            src="./images/icons8-gym-50.png"
+            alt="gym"
+            width="110px"
+            ;
+            height="110px" />
+
+          <p>Hypertrophy</p>
+        </div>
+        <div class="fitness-items">
+          <img
+            src="./images/icons8-running-50.png"
+            alt="running"
+            width="110px"
+            ;
+            height="110px" />
+
+          <p>Running</p>
+        </div>
+      </div>
+      <div class="lines">
+        <div class="line-1">
+          <div class="vl"></div>
+        </div>
+
+        <div class="line-2">
+          <div class="vll"></div>
+        </div>
+
+        <div class="line-3">
+          <div class="hl"></div>
+        </div>
+      </div>
+    </div>
+
+    <!--Subscription part-->
+
+    <!--<div class="subscription">
+      <div class="sub-container">
+        <h1>Subscription Plan</h1>
+
+      <div class="basic-box">
+        <h1>Basic</h1>
+        <p>for 12 months</p>
+
+        <h2>800/month</h2>
+        <p>for streaming</p>
+        <button class="btn3">Select Plan</button>
+      </div>
+      <div class="intermediate-box">
+        <h1>Intermediate</h1>
+
+        <p>for 12 months</p>
+
+        <h2>1000/month</h2>
+        <p>for streaming</p>
+        <button class="btn3">Select Plan</button>
+      </div>
+      <div class="advanced-box">
+        <h1>Advanced</h1>
+
+        <p>for 12 months</p>
+
+        <h2>1500/month</h2>
+        <p>for streaming</p>
+        <button class="btn3">Select Plan</button>
+      </div>
+      </div>
+      
+    </div>-->
+    <div class="subscription-container">
+      <h2>Subscription Plan</h2>
+
+      <div class="plan-items">
+        <div class="plan">
+          <div>
+            <h3>Basic</h3>
+            <p>for 12 months</p>
+          </div>
+
+          <div>
+            <h3>800/month</h3>
+            <p>for streaming</p>
+          </div>
+          <button class="plan-btn">Select Plan</button>
+        </div>
+
+        <div class="plan">
+          <div>
+            <h3>Intermediate</h3>
+            <p>for 12 months</p>
+          </div>
+          <div>
+            <h3>1000/month</h3>
+            <p>for streaming</p>
+          </div>
+          <button class="plan-btn">Select Plan</button>
+        </div>
+
+        <div class="plan">
+          <div>
+            <h3>Advance</h3>
+            <p>for 12 months</p>
+          </div>
+          <div>
+            <h3>1500/month</h3>
+            <p>for streaming</p>
+          </div>
+          <button class="plan-btn">Select Plan</button>
+        </div>
+      </div>
+    </div>
+
+    <!--Fitness Club-->
+    <div class="Fitnessclub">
+      <img src="Images/is 1.png" alt="" />
+    </div>
+
+    <div class="white-box">
+      <img src="Images/Rectangle 98 (1).png" alt="" />
+    </div>
+    <div class="image">
+      <img src="Images/gm 1.png" alt="" />
+
+      <p>Good Management</p>
+      <h4>
+        What hurts today makes you stronger
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tomorrow
+      </h4>
+    </div>
+    <div class="image2">
+      <img src="Images/ps1 1.png" alt="" />
+
+      <p>Practice Sessions</p>
+      <h4>Motivation is what gets you started.</h4>
+    </div>
+    <div class="image3">
+      <img src="Images/ft2 1 (1).png" alt="" />
+
+      <p>Personal Trainers</p>
+      <h4>If it doesn't challenge you, it won'tchange you.</h4>
+    </div>
+    <div class="yellow"></div>
+
+    <!--Success Plan-->
+
+    <div class="Success">
+      <h1>Success Stories</h1>
+
+      <div class="img-box1">
+        <img src="Images/james-barr-jYrFcbztIHA-unsplash.jpg" alt="" />
+        <p>
+          Working out regularly I lose some of my extra pounds which helped in
+          my modelling career.
+        </p>
+      </div>
+      <div class="img-box2">
+        <img src="Images/bruce-mars-HHXdPG_eTIQ-unsplash.jpg" alt="" />
+
+        <p>
+          Yoga and Pilates helped me get back in shape and raised my confidence.
+        </p>
+      </div>
+      <div class="img-box3">
+        <img src="Images/mark-adriane-xQghSLXYD3M-unsplash.jpg" alt="" />
+        <p>
+          Personal Trainer diet plan helpedin increasing strength and endurance.
+        </p>
+      </div>
+    </div>
+
+    <!--Footer Part-->
+    <div class="footer">
+      <img src="Images/fitness logo.png" alt="" />
+      <p>Prioritize Your Fitness Goals with our world class services</p>
+      <div class="company-info">
+        <h1>Company</h1>
+        <h2>About</h2>
+        <h3>Carrier</h3>
+        <h4>Blogs</h4>
+        <h5>Terms & Conditions</h5>
+      </div>
+      <div class="contact-info">
+        <h1>Contact</h1>
+        <h2>Help/FAQs</h2>
+        <h3>Press</h3>
+        <h4>Mobile</h4>
+      </div>
+      <div class="More-info">
+        <h1>More</h1>
+        <h2>Program</h2>
+        <h3>Plans</h3>
+        <h4>Method</h4>
+      </div>
+
+      <div class="fourth-col">
+        <h1>Popular Tags</h1>
+        <button class="btn5">ABS</button>
+        <button class="btn6">Workout</button>
+        <button class="btn-5">ABS</button>
+        <button class="btn-6">Nutrition</button>
+        <button class="btn-7">Boxing</button>
+        <button class="btn-8">Trainers</button>
+        <button class="btn-9">Facilities</button>
+      </div>
+    </div>
+    <div class="yellow-2">
+      <p>CopyRight All Rights Reserved</p>
+    </div>
+
+    <script>
+      function showForm(params) {
+        document.querySelector(".loginform").classList.add("showloginform");
+      }
+      function closeForm(params) {
+        document.querySelector(".loginform").classList.remove("closeloginform");
+      }
+      function myMenu() {
+        var show = document.getElementById("list-bar");
+        if (show.style.display == "block") {
+          show.style.display = "none";
+        } else {
+          show.style.display = "block";
+        }
+      }
+    </script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
